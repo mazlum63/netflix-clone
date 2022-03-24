@@ -1,0 +1,61 @@
+.home__screen .home__screen__navbar {
+  position: fixed;
+  top: 0;
+  z-index: 50;
+  width: 100%;
+}
+.home__screen .navbar__contents {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  padding: 1rem 2rem;
+  transition: background-color 0.5s ease-in;
+}
+.home__screen .navbar__contents.navbar__show {
+  background-color: #111;
+}
+
+.home__screen .navbar__logo {
+  width: 167px;
+  cursor: pointer;
+}
+
+.home__screen .navbar__avatar {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+@media (max-width: 1200) {
+}
+
+@media (max-width: 992px) {
+  .home__screen .navbar__logo {
+    width: 150px;
+  }
+  .home__screen .navbar__avatar {
+    width: 45px;
+    height: 45px;
+  }
+}
+
+@media (max-width: 768px) {
+  .home__screen .navbar__logo {
+    width: 125px;
+  }
+  .home__screen .navbar__avatar {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  .home__screen .navbar__logo {
+    width: 100px;
+  }
+  .home__screen .navbar__avatar {
+    width: 35px;
+    height: 35px;
+  }
+}

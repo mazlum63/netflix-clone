@@ -1,0 +1,95 @@
+.signin__screen .signin__screen__navbar {
+  display: flex;
+  justify-content: right;
+  width: 100%;
+  max-width: 1920px;
+  margin-top: 1.5rem;
+  padding: 0 3rem;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+
+.signin__screen .navbar__logo {
+  width: 167px;
+  margin-right: auto;
+  cursor: pointer;
+}
+
+.signin__screen .navbar__logo__image {
+  width: 100%;
+}
+
+.signin__screen .navbar__language {
+  margin-right: 2rem;
+  position: relative;
+}
+
+.signin__screen .navbar__form__select {
+  background-color: transparent;
+  padding: 0.3rem 0rem 0.3rem 1.2rem;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.signin__screen .navbar__form__option {
+  background-color: #757575;
+  color: #fff;
+  font-weight: 500;
+}
+
+.signin__screen .icon__globe {
+  position: absolute;
+  left: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 13px;
+  height: 13px;
+}
+
+.signin__screen .navbar__signin__link {
+  background-color: #e50914;
+  padding: 0.5rem 1rem;
+  height: initial;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 1200) {
+}
+
+@media (max-width: 992px) {
+  .signin__screen .signin__screen__navbar {
+    padding: 0 1rem;
+  }
+  .signin__screen .navbar__logo {
+    width: 150px;
+  }
+  .signin__screen .navbar__language {
+    margin-right: 1rem;
+  }
+  .signin__screen .navbar__signin__link {
+    padding: 0.5rem 0.5rem;
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .signin__screen .navbar__logo {
+    width: 125px;
+  }
+}
+
+@media (max-width: 576px) {
+  .signin__screen .navbar__logo {
+    width: 100px;
+  }
+}

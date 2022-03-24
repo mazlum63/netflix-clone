@@ -1,0 +1,154 @@
+.profile__screen {
+  position: relative;
+}
+.profile__screen .profile__navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  padding: 1rem 2rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.profile__screen .navbar__logo {
+  width: 167px;
+}
+.profile__screen .navbar__avatar {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.profile__screen .profile__edit {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile__screen .profile__container {
+  width: 40%;
+}
+
+.profile__screen .profile__header {
+  font-size: 3rem;
+  font-weight: 400;
+  border-bottom: 1px solid #6d6d6d;
+  padding-left: 0;
+}
+.profile__screen .profile__info {
+  display: flex;
+  margin-top: 1rem;
+}
+.profile__screen .profile__avatar {
+  width: 84px;
+  height: 84px;
+}
+
+.profile__screen .info__container {
+  width: 100%;
+  margin-left: 1rem;
+}
+.profile__screen .profile__email {
+  padding: 1rem;
+  background-color: #6d6d6d;
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.profile__screen .current__plan {
+  border-bottom: 1px solid #6d6d6d;
+  padding: 0.5rem 0;
+  font-weight: 500;
+}
+.profile__screen .renewal__date {
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-top: 1rem;
+}
+.profile__screen .netflix__plans {
+  padding: 1rem;
+}
+.profile__screen .plan__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+}
+.profile__screen .plan__name {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+.profile__screen .plan__subscribe {
+  padding: 0.6rem 1rem;
+  border: none;
+  cursor: pointer;
+  background-color: #e50914;
+  color: #fff;
+}
+.profile__screen .plan__subscribe.btn__disabled {
+  cursor: inherit;
+  background-color: #6e696a;
+  color: #fff;
+}
+.profile__screen .profile__signout {
+  padding: 0.6rem 0;
+  display: block;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  background-color: #e50914;
+  color: #fff;
+}
+
+@media (max-width: 1200px) {
+  .profile__screen .profile__container {
+    width: 60%;
+  }
+}
+
+@media (max-width: 992px) {
+  .profile__screen .navbar__logo {
+    width: 150px;
+  }
+  .profile__screen .navbar__avatar {
+    width: 45px;
+    height: 45px;
+  }
+  .profile__screen .profile__edit {
+    padding-top: 4rem;
+  }
+  .profile__screen .profile__container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .profile__screen .navbar__logo {
+    width: 125px;
+  }
+  .profile__screen .navbar__avatar {
+    width: 40px;
+    height: 40px;
+  }
+  .profile__screen .profile__avatar {
+    width: 50px;
+    height: 50px;
+  }
+  .profile__screen .profile__container {
+    width: 95%;
+  }
+}
+
+@media (max-width: 576px) {
+  .profile__screen .navbar__logo {
+    width: 90px;
+  }
+  .profile__screen .navbar__avatar {
+    width: 35px;
+    height: 35px;
+  }
+}

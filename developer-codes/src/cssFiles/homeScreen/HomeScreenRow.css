@@ -1,0 +1,30 @@
+.home__screen .row {
+  padding: 0 1rem;
+  margin: 2rem 0;
+}
+
+.home__screen .row__title {
+  font-size: 1.5rem;
+}
+
+.home__screen .row__posters {
+  display: flex;
+  overflow-x: auto;
+  padding: 2rem;
+}
+.home__screen .row__posters::-webkit-scrollbar {
+  display: none !important;
+}
+
+.home__screen .row__poster {
+  width: 100%;
+  max-height: 100px;
+  margin: 0 0.5rem;
+  transition: transform 0.3s;
+}
+.home__screen .row__poster:hover {
+  transform: scale(1.1);
+}
+.home__screen .row__poster.row__poster__large {
+  max-height: 250px;
+}

@@ -1,0 +1,55 @@
+.signin__screen .signin__screen__footer {
+  padding: 4rem 10%;
+}
+
+.signin__screen .footer__container {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.signin__screen .footer__phone {
+  color: #757575;
+  margin-bottom: 2rem;
+  font-weight: 500;
+}
+.signin__screen .footer__phone a {
+  color: #757575;
+}
+
+.signin__screen .footer__links {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.signin__screen .footer__link {
+  color: #757575;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+.signin__screen .footer__link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 1200) {
+}
+
+@media (max-width: 992px) {
+  .signin__screen .footer__container {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .signin__screen .footer__links {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 576px) {
+  .signin__screen .footer__links {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

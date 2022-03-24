@@ -1,0 +1,44 @@
+.home__screen .banner {
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home__screen .banner__content {
+  padding: 150px 10% 100px 10%;
+}
+
+.home__screen .banner__gradient {
+  width: 100%;
+  height: 7rem;
+  background-image: linear-gradient(
+    0deg,
+    #111,
+    rgba(37, 37, 37, 0.6),
+    transparent
+  );
+}
+.home__screen .banner__title {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.home__screen .banner__buttons {
+  margin: 0.8rem 0;
+}
+.home__screen .banner__button {
+  padding: 0.4rem 1.5rem;
+  border: none;
+  border-radius: 3px;
+  margin-right: 0.8rem;
+  background-color: rgba(37, 37, 37, 0.5);
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.2s linear;
+}
+.home__screen .banner__button:hover {
+  background-color: #fff;
+  color: #111;
+}
