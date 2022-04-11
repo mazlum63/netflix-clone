@@ -1,0 +1,3 @@
+open this link for hosted project
+
+httpsnetflix-clone-app-74156.web.app
